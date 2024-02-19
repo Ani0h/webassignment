@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML by Annie Mzembe</title>
+<style>
+
+</style>
+</head>
+
+<body>
+<header><h1>Introduction to HTML by Annie Mzembe</h1></header>
+	
+	<ul>
+		<li><h2>Doctype</h2></li>
+		<p>The Doctype is a tag that tells the browser what kind of document its reading.</p>
+		<h3>Example of the code</h3>
+		<p>&lt;!doctype html&gt;</p>
+		
+		<li><h2>html</h2></li>
+		<p>HTML stands for hypertext markup language. The HTML tag acts is a root (top level code) for all code. All the code is written within its tag, as such all code is a descendant of this root element.</p>
+		<h3>Example of the code</h3>
+		<p>&lt;html&gt;&nbsp;&lt;/html&gt;</p>
+
+		<li><h2>head</h2></li>
+		<p>The head tag provides information about the document, such as its language, title and style sheets. This information is read and used by the browser not the person viewing the web page.</p>
+		<h3>Example of the code</h3>
+		<p>&nbsp;&lt;head&gt;&lt;/head&gt;</p>
+		
+		<li><h2>body</h2></li>
+		<p>The body holds all the information (content) that will be displayed on the webpage.</p>
+		<h3>Example of the code</h3>
+		<p>&nbsp;&lt;body&gt;&lt;/body&gt;</p>
+		
+		<li><h2>title</h2></li>
+		The title is the name of the webpage. This is read by the browser and can also be viewed by the peson reading the webpage. The title is usaully displayed in the tab of of a browser.
+		<h3>Example of the code</h3>
+		<p>&lt;title&gt;&lt;/title&gt;</p>
+
+		<li><h2>p</h2></li>
+		This is a paragraph tag. it is used to sort text into different paragraphs.The content is written between the openning and closing "p" tags.
+		<h3>example of the code</h3>
+		<p>&lt;p&gt;This is a Paragraph&lt;/p&gt;</p>
+		<h3>Working example</h3>
+		<p>This is a Paragraph</p>
+		<p>This is another Paragraph</p>
+		
+		<li><h2>span</h2></li>
+		Span is usulally used as an inline style to add emphasis to one word or letter in a sentence. this emphasis can be the formatting of text from font type/ size, bold or itallics or even colour.
+		<h3>example of the code</h3>
+		<p>This is an example of a &lt;span style= "color:red"&gt;span&lt;/span&gt;</p>
+<h3>Working example</h3>
+		<p>This is an example of a <span style= "color:red">span</span></p>
+		
+		<li><h2>div</h2></li>
+		<p>A Div is used to divide the webpage into different sections in order to style that section a certain way.</p>
+		<h3>example of the code</h3>
+		<p>&lt;div&gt;This is an example of a Div&lt;/div&gt;</p>
+<h3>Working example</h3>
+		<div style="background-color: cadetblue">This is an example of a Div</div>
+
+		<li><h2>heading elements- h1-h6</h2></li>
+		<p>Heading elements are used to assign headings for the content displayed on the webpage. They range from h1-h6. h1 is the largest in font size and they decrease in size as they go up to h6 being the smallest.</p>
+		<h3>example of the code</h3>
+		<p><ul><li>&lt;h1&gt;This is heading 1&lt;/h1&gt;</li> <li>&lt;h2&gt;This is heading 2&lt;/h2&gt;</li> <li>&lt;h3&gt;This is heading 3&lt;/h3&gt;</li> <li>&lt;h4&gt;This is heading 4&lt;/h4&gt;</li> <li>&lt;h5&gt;This is heading 5&lt;/h5&gt;</li> <li>&lt;h6&gt;This is heading 6&lt;/h6&gt;</li></ul></p>
+<h3>Working example</h3>	
+	  <h1>This is heading 1</h1>
+		<h2>This is heading 2</h2>
+		<h3>This is heading 3</h3>
+		<h4>This is heading 4</h4>
+		<h5>This is heading 5</h5>
+		<h6>This is heading 6</h6>
+		
+		<li><h2>formatting elements- strong, emphasis</h2></li>
+		<p>The "Strong" formatting element is used to convey a seriousness and importance of the word. It will display the chosen text as bold. The "emphasis" formatting element is used to stress emphasis on the word. It displays the text in italics. </p>
+		<h3>example of the code</h3>
+		<p>Here are examples of the &lt;strong&gt;Strong&lt;/strong&gt; and &lt;em&gt;emphasis&lt;/em&gt; formatting elements.&nbsp;</p>
+<h3>Working example</h3>
+	  	<p>Here are examples of the <strong>Strong</strong> and <em>emphasis</em> formatting elements.</p>
+		
+		<li><h2>tables and caption</h2></li>
+		<p>The Caption tag acts as a heading for the table. The table tag allows the presentation of data and information into rows and columns. The design of the table is dependent on the value of borders, the cellspacing and cell padding.</p>
+		<h3>example of the code</h3>
+	  <p>&lt;table width="200" border="2" cellspacing="5" cellpadding="20"&gt;&nbsp;</p>
+	  <p>&lt;caption&gt; CAPTION &lt;/caption&gt;</p>
+	  <p>&nbsp;&lt;tbody&gt;&nbsp;</p>
+	  <p>&lt;tr&gt;</p>
+	  <p>&nbsp;&lt;th scope="col"&gt;Table Heading&lt;/th&gt;&nbsp;</p>
+	  <p>&lt;th scope="col"&gt;Table Heading&lt;/th&gt;</p>
+	  <p>&nbsp;&lt;/tr&gt;&nbsp;</p>
+	  <p>&lt;tr&gt;&nbsp;</p>
+	  <p>&lt;td&gt;Table data&lt;/td&gt;</p>
+	  <p>&nbsp;&lt;td&gt;Table data&lt;/td&gt;</p>
+	  <p>&nbsp;&lt;/tr&gt;&nbsp;</p>
+	  <p>&lt;/tbody&gt;</p>
+		<p>&nbsp;&lt;/table&gt;&nbsp;</p>
+<h3>Working example</h3>
+			<table width="200" border="2" cellspacing="5" cellpadding="20">
+		  <caption>
+			CAPTION
+		  </caption>
+		  <tbody>
+			<tr>
+			  <th scope="col">Table Heading</th>
+			  <th scope="col">Table Heading</th>
+			</tr>
+			<tr>
+			  <td>Table data</td>
+			  <td>Table data</td>
+			</tr>
+		  </tbody>
+		</table>
+
+		<li><h2>lists</h2></li>
+	<p>lists are used to sort information or data in a list form. there are different types of lists. The information is listed in list items tag (li) wrapped in either the "ul" or "ol" tag. Another form of lists are definition lists (dl), these go in hand with definition terms (dt).</p>
+		<h3>example of the code</h3>
+	<p>ordered list</p>
+	  <p>&lt;ol&gt;</p>
+	  <p>&nbsp;&lt;li&gt;Ordered List&lt;/li&gt;</p>
+	  <p>&nbsp;&lt;li&gt;Unordered List&lt;/li&gt;&nbsp;</p>
+	  <p>&lt;li&gt;Definition List&lt;/li&gt;</p>
+	  <p>&nbsp;&lt;/ol&gt;&nbsp;</p>
+	  <p>&lt;ul&gt;&nbsp;</p>
+	  <p>&lt;li&gt;Ordered List&lt;/li&gt;&nbsp;</p>
+	  <p>&lt;li&gt;Unordered List&lt;/li&gt;&nbsp;</p>
+	  <p>&lt;li&gt;Definition List&lt;/li&gt;</p>
+	  <p>&nbsp;&lt;/ul&gt;&nbsp;</p>
+
+<h3>Working example</h3>
+		<p><ol>
+			<li>Ordered List</li>
+			<li>Unordered List</li>
+			<li>Definition List</li>
+		</ol></p>
+		<p><ul>
+			<li>Ordered List</li>
+			<li>Unordered List</li>
+			<li>Definition List</li>
+		</ul></p>
+		<p><dl>
+			<dt>ORDERED LIST</dt>
+				<dd>The list is in order, it uses numbers or letters.</dd>
+			<dt>UNORDERED LIST</dt>
+				<dd>The list is not in any particular order. It uses bullet points.</dd>
+			<dt>DEFINITION LIST</dt>
+				<dd>This is a definition discription.</dd>
+			
+			</dl>
+			</p>
+			
+		<li><h2>images</h2></li>
+<p> The image tag is used to display images on the webpage</p>
+		<h3>example of the code</h3>
+		<p>&lt;img src="images/image.png" width="100" height="100" alt="IMAGE"/&gt;&nbsp;</p>
+<h3>Working example</h3>
+        <img src="images/image.png" width="100" height="100" alt="IMAGE"/>
+
+		<li><h2>links</h2></li>
+	<p> Links are used to naviagate to a different webpage or a different section on the same webpage.</p>
+		<h3>example of the code</h3>
+		<p>&lt;a href="#"&gt;This is a link&lt;/a&gt;&nbsp;</p>
+<h3>Working example</h3>
+		<a href="#">This is a link</a>
+
+		<li><h2>qoute and blockqoute</h2></li>
+<p> A quote is used to place inverted commas around the qoute. the quote tag is usually used inline.</p>
+<p>The blockquote is used to display a quote. This quote would be indented.</p>
+		<h3>example of the code</h3>
+	  	<p>&lt;q&gt;I was angry with my friend; I told my wrath, my wrath did end.&lt;/q&gt;</p>
+		<p>&lt;blockquote&gt; I was angry with my friend; I told my wrath, my wrath did end. I was angry with my foe: I told it not, my wrath did grow. &lt;/blockquote&gt;&nbsp;</p>
+<h3>Working example</h3>
+		<p><q>I was angry with my friend; I told my wrath, my wrath did end.</q></p>
+		<p>Here is a qoute from "A Poison Tree" BY WILLIAM BLAKE</p>
+		<blockquote>
+		I was angry with my friend; 
+		I told my wrath, my wrath did end.
+		I was angry with my foe: 
+		I told it not, my wrath did grow. 
+		</blockquote>
+		
+		<li><h2>abbreviations</h2></li>
+
+		<h3>example of the code</h3>
+		<p>&lt;abbr title="Hyper Text Markup Language"&gt;HTML&lt;/abbr&gt;</p>
+<h3>Working example</h3>
+		<abbr title="Hyper Text Markup Language">HTML</abbr>
+		<p>The abbreviation HTML element represents an abbreviation or acronym.</p>
+		<li><h2>meta</h2></li>
+		<p>The <meta>
+         HTML element represents metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title. Such as telling the Browser the language of the HTML document.</p>
+		<h3>example of the code</h3>
+		<p>&lt;meta charset="utf-8"&gt;&nbsp;</p>
+
+		<li>
+		  <h2>forms</h2>
+		  <p>Forms tag are used to allocate a space for user input.&nbsp;These are in text form, email form, a checkbox and buttons.</p>
+		</li>
+		<h3>example of the code</h3>
+	  <p>&lt;input type="Text"&gt;&lt;/p&gt;</p>
+	  <p>&lt;input type="email"&gt;</p>
+	  <p>&lt;input type="checkbox"&gt;</p>
+		<p>&lt;input type="Submit"&gt;</p>
+<h3>Working example</h3>
+		<p>Enter Name: <input type="Text"></p>
+		<p>Enter Email: <input type="email"></p>
+		<p>Tick if applicable: <input type="checkbox"></p>
+		<p><input type="Submit"></p>
+		
+		<li><h2>Special symbols and character entities</h2>
+		  <p>The special symbol tags are used to represent symbols or currency. They are represented by using ampersand, a tag name or number followd by a semi-colon.</p>
+		</li>
+<table width="401" border="2" cellspacing="5" cellpadding="20">
+  <caption>
+    <h3>Example of the code</h3>
+  </caption>
+  <tbody>
+    <tr>
+      <th width="74" scope="col">Character Name&nbsp;</th>
+      <th width="143" scope="col">Example of the code&nbsp;</th>
+    </tr>
+    <tr>
+      <td>&nbsp;Copyright</td>
+      <td>&nbsp;&lt;p&gt;&amp;copy;&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Trade Mark</td>
+      <td>&nbsp;&lt;p&gt;&amp;#8482;&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Registered Trademark</td>
+      <td>&nbsp;&lt;p&gt;&amp;reg;&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Euro</td>
+      <td>&nbsp;&lt;p&gt;&amp;#8364;&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Non-breaking Space</td>
+      <td>&nbsp;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Less than</td>
+      <td>&nbsp;&lt;p&gt;#8250;&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>Greater than&nbsp;</td>
+      <td>&nbsp;&lt;p&gt;#8249;&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Ampersand</td>
+      <td>&nbsp;&lt;p&gt;&amp;amp;&lt;/p&gt;</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Working example</h3>
+<p>&copy; &#8482; &reg; &#8364; &nbsp; &#8250; &#8249; &amp;</p>
+
+</ul>
+<p><a href="css_assignment.html">css</a></p>
+	
+</body>
+</html>
